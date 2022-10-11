@@ -5,11 +5,12 @@ const Header = () => {
     const x=2;
   return (
     <div>
-        {/* <h1 className={headerStyles.title}> */}
-        <h1 className="title">
+        <h1 className={headerStyles.title}>
+        {/* <h1 className="title"> */}
             <span>WebDev</span> News
         </h1>
-        <style jsx>
+        {/* STYLE JSX */}
+        {/* <style jsx>
             {
                 `
                 .title{
@@ -18,8 +19,8 @@ const Header = () => {
                 `
             }
 
-        </style>
-
+        </style> */}
+          <p className={headerStyles.description}>Keep up to date with the dev news.</p>
       
     </div>
   )
